@@ -1,0 +1,420 @@
+.overview {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 251, 245, 0.3) 100%
+  ),
+  url("../IMAGES/size\ 1024px\ x\ 500px-01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.overview-content {
+  padding: 20px 15px;
+  color: white;
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+  
+.hotel-name {
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 5px;
+  color: #FFB598;
+}
+  
+.hotel-phrase{
+  margin-top: 50px;
+  font-size: 64px;
+  color: #FFFFFF;
+}
+
+
+.hotel-button{
+  width: 180px;
+  height: 55px;
+  background-color: transparent;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 50px;
+  border-radius: 0px;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.hotel-button:hover {
+  background-color: #000000;
+}
+
+.luxury{
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background-color: #FFF9F7;
+  color: #722C11;
+}
+
+.luxury-content {
+  position: relative;
+  padding: 20px 15px;
+  width: 1024px;
+  margin: auto;
+  text-align: center;
+}
+
+.luxury-heading {
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 5px;
+}
+  
+.luxury-body{
+  margin-top: 50px;
+  font-size: 18px;
+  /* max-width: 512px; */
+}
+
+.rooms-and-suites{
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background-color:#FFFFFF;
+}
+
+.rooms-and-suites-content {
+  position: relative;
+  padding: 20px 15px;
+  width: 1024px;
+  margin: auto;
+  text-align: center;
+}
+
+.rooms-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.rooms-item {
+  position: relative;
+  padding: 5px;
+  width: 444px;
+  height: 356px;
+  margin: 10px;
+  color: rgba(51, 51, 51, 0.8);
+}
+
+.rooms{
+  text-align: left;
+  margin-left: 5px;
+}
+
+.rooms-heading {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.rooms-body{
+  margin-top: 15px;
+  font-size: 18px;
+  
+}
+
+.rooms-button{
+  width: 180px;
+  height: 55px;
+  background-color: transparent;
+  color: rgba(51, 51, 51, 0.8);
+  padding: 14px 20px;
+  margin-top: 50px;
+  border-radius: 0px;
+  border: 2px solid rgba(51, 51, 51, 0.8);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.rooms-button:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.rooms-image {
+  display: flex;
+  align-items: center;
+  width: 444px;
+  height: 356px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 251, 245, 0.3) 100%
+  ),
+  url("../IMAGES/size\ 444px\ x\ 356px-01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px 30px 30px 30px;
+}
+
+@media screen and (min-width: 50px) and (max-width: 974px) {
+  .rooms-and-suites{
+    height: 150vh;
+  } 
+}
+
+.events-and-weddings {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 251, 245, 0.3) 100%
+  ),
+  url("../IMAGES/size\ 1024px\ x\ 500px-01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.events-and-weddings-content {
+  padding: 20px 15px;
+  color: white;
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.events-heading {
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+.events-body{
+  margin-top: 50px;
+  font-size: 18px;
+  /* max-width: 512px; */
+}
+
+.events-button{
+  width: 180px;
+  height: 55px;
+  background-color: transparent;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 50px;
+  border-radius: 0px;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.events-button:hover {
+  background-color: #000000;
+}
+
+@media screen and (min-width: 50px) and (max-width: 768px) {
+  .events-and-weddings {
+    width: 100vw;
+  }
+}
+
+.restuarants-and-bars{
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background-color:#FFFFFF;
+}
+
+.restuarants-and-bars-content {
+  position: relative;
+  padding: 20px 15px;
+  width: 1024px;
+  margin: auto;
+  text-align: center;
+}
+
+.restuarants-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.restuarants-item {
+  position: relative;
+  padding: 5px;
+  width: 444px;
+  height: 356px;
+  margin: 10px;
+  color: rgba(21, 45, 30, 0.8);;
+}
+
+.restuarants{
+  text-align: left;
+  margin-left: 5px;
+}
+
+.restuarants-heading {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.restuarants-body{
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.restuarants-button{
+  width: 180px;
+  height: 55px;
+  background-color: transparent;
+  color: rgba(51, 51, 51, 0.8);
+  padding: 14px 20px;
+  margin-top: 50px;
+  border-radius: 0px;
+  border: 2px solid rgba(51, 51, 51, 0.8);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.restuarants-button:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.restuarants-image {
+  display: flex;
+  align-items: center;
+  width: 444px;
+  height: 356px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 251, 245, 0.3) 100%
+  ),
+  url("../IMAGES/size\ 444px\ x\ 356px-01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px 30px 30px 30px;
+}
+
+@media screen and (min-width: 50px) and (max-width: 974px) {
+  .restuarants-and-bars{
+    height: 150vh;
+  } 
+}
+
+.newsletter{
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background-color:#F6FFFA;
+}
+
+.newsletter-content {
+padding: 20px 15px;
+/* color: white; */
+width: 1024px;
+margin: 0 auto;
+text-align: center;
+}
+
+.newsletter-heading {
+  text-align: left;
+  padding-left: 14px;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.newsletter-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.newsletter-item {
+  position: relative;
+  padding: 5px;
+  width: 300px;
+  height: 100px;
+  margin: 10px;
+  /* text-align: left; */
+  background-color: #F6FFFA;
+}
+
+.newsletter-item input[type=text], .newsletter-item input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 0.8px solid #333333;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+.newsletter-item button {
+  width: 50%;
+  background-color: #333333;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.newsletter-item button:hover {
+  background-color: #45a049;
+}
+
+@media screen and (min-width: 50px) and (max-width: 768px) {
+  .overview {
+    width: 100vw;
+  }
+
+  .luxury{
+      width: 100vw;
+  }
+
+  .rooms-and-suites{
+    width: 100vw;
+  }
+
+  .events-and-weddings {
+    width: 100vw;
+  }
+  
+  .restuarants-and-bars {
+    width: 100vw;
+  }
+
+  .newsletter {
+    width: 100vw;
+  }
+}

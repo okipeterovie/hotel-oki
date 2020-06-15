@@ -1,0 +1,184 @@
+.overview {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 251, 245, 0.3) 100%
+  ),
+  url("../IMAGES/size\ 1024px\ x\ 500px-01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+.overview-content {
+  padding: 20px 15px;
+  color: white;
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.phrase {
+  font-weight: 400;
+  font-size: 64px;
+  margin-left: 5px;
+}
+
+.heading-text{
+  font-weight: bold;
+  font-size: 36px;
+  margin-left: 5px;
+}
+
+.facilities-and-services{
+  display: flex;
+  align-items: center;
+  height: auto;
+  background-color:#E5E5E5;
+  padding-bottom: 50px;
+}
+  
+.facilities-and-services-content {
+  position: relative;
+  padding: 20px 15px;
+  width: 1024px;
+  margin: auto;
+  text-align: center;
+}
+  
+.Heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.facilities-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+  
+.facilities-item {
+  position: relative;
+  padding: 5px;
+  width: 444px;
+  height: 444px;
+  margin: 10px;
+}
+
+.facilities-details{
+  background-color: #ffffff;
+  width: 444px;
+  height: 80px;
+  align-content: center;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.facilities-heading {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: rgba(21, 45, 30, 0.9);
+  margin-top: auto;
+  padding: 30px;
+}
+  
+.facilities-image {
+  display: flex;
+  align-items: center;
+  width: 444px;
+  height: 356px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 251, 245, 0.3) 100%
+  ),
+  url("../IMAGES/size\ 444px\ x\ 356px-01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px 30px 0px 0px;
+}
+  
+.we-also-offer{
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background-color:#F6FFFA;
+}
+  
+.we-also-content {
+  position: relative;
+  padding: 20px 15px;
+  width: 1024px;
+  margin: auto;
+  text-align: center;
+}
+  
+.Heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.we-also-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+  
+.we-also-item {
+  position: relative;
+  padding: 5px;
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  /* background-color: brown; */
+}
+
+.we-also-item p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
+  color: black;
+  text-align: left;
+}
+
+.we-also-details{
+  background-color: black;
+  width: 444px;
+  height: 80px;
+  align-content: center;
+}
+
+@media screen and (min-width: 50px) and (max-width: 768px) {
+  .overview {
+    width: 100vw;
+  }
+  
+  .facilities-and-services{
+    width: 100vw;
+  }
+
+  .we-also-offer{
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 50px) and (max-width: 974px) {
+  .facilities-and-services{
+    height: auto;
+  }
+}

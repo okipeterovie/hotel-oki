@@ -1,0 +1,224 @@
+.contact-us{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color:#FFF9F7;;
+}
+
+.contact-us-content {
+  /* position: relative; */
+  padding: 20px 15px;
+  width: 1024px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-us-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.contact-us-item {
+  /* position: relative; */
+  padding: 5px;
+  width: 444px;
+  height: 356px;
+  margin: 10px;
+}
+
+.contact-us-heading {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-left: 5px;
+  text-align: left;
+}
+
+.contact-us-body{
+  margin-top: 15px;
+  margin-left: 5px;
+  font-size: 1.2rem;
+  text-align: left;
+  /* max-width: 512px; */
+}
+
+.contact-form-bg{
+    /* position: absolute; */
+    width: 444px;
+    height: 444px;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 6px rgba(204, 138, 112, 0.15);
+}
+
+.contact-form{
+    padding-top: 20px;
+    margin: auto;
+    width:400px;
+    height: 400px;
+}
+
+.contact-form input[type=text], .contact-form input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 0.8px solid #333333;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+
+  
+
+  .contact-form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 0.8px solid #333333;
+    border-radius: 0px;
+    background-color: transparent;
+    resize: none;
+  }
+  
+  .contact-form input[type=submit] {
+    width: 100%;
+    background-color: #152D1E;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form input[type=submit]:hover {
+    background-color: #45a049;
+  }
+ 
+  
+
+
+
+.map {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+   
+  }
+  
+.map-content {
+    padding: 20px 15px;
+    color: white;
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .map-map{
+      width: 800px;
+  }
+  @media screen and (min-width: 50px) and (max-width: 974px) {
+    .contact-us{
+      height: 200vh;
+    }
+  
+    .map {
+        height: 120vh;
+    }
+
+    .map-map{
+        width: 80vw;
+    }
+    
+  }
+
+.newsletter{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    background-color:#F6FFFA;
+}
+
+.newsletter-content {
+  padding: 20px 15px;
+  /* color: white; */
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+.newsletter-heading {
+    text-align: left;
+    padding-left: 14px;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.newsletter-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.newsletter-item {
+  position: relative;
+  padding: 5px;
+  width: 300px;
+  height: 100px;
+  margin: 10px;
+  /* text-align: left; */
+  background-color: #F6FFFA;
+}
+
+.newsletter-item input[type=text], .newsletter-item input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 0.8px solid #333333;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+
+  .newsletter-item button {
+    width: 50%;
+    background-color: #333333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+  
+  .newsletter-item input[type=submit]:hover {
+    background-color: #45a049;
+  }
+ 
+
+
+@media screen and (min-width: 50px) and (max-width: 768px) {
+ 
+    .contact-us {
+        width: 100vw;
+    }
+    .map{
+        width: 100vw;
+    }
+
+    .map-map{
+        width: 80vw;
+    }
+  
+  .newsletter {
+    width: 100vw;
+  }
+}
